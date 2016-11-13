@@ -1,0 +1,6 @@
+applications:
+- name: fg-backend
+  memory: 1024M
+  path: target/backend-0.0.1-SNAPSHOT.jar
+  services: 
+          - fg-postgres
